@@ -19,13 +19,69 @@ img {
     max-width: 100%;
 }
 
-nav li {
-    margin: 0 13px;
+nav {
+    background-color: #f0f7ff;
 }
+
+nav li {
+    margin: 0 40px;
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#Title {
+    margin: 100px 0px 0px;
+}
+
+#Title h1 {
+    font-size: 100px;
+    color: rgb(29, 29, 29);
+}
+
+
+/*TwoImage*/
+
+#TwoInOne .left {
+    position: relative;
+    left: 80px;
+}
+
+#TwoInOne .left img {
+    transform: scale(1, 1);
+    transition: all 0.2s ease-out;
+}
+
+#TwoInOne .left img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#TwoInOne .right {
+    position: relative;
+    right: 80px;
+}
+
+#TwoInOne .right img {
+    transform: scale(1, 1);
+    transition: all 0.2s ease-out;
+}
+
+#TwoInOne .right img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+/*TwoImage End*/
 
 #intro .jumbotron {
     background: url('../pictures/mainbg.png');
-    background-size: cover;
+    background-size: 1320px 500px;
     background-repeat: no-repeat;
     background-position: 50%;
     height: 70vh;
@@ -35,7 +91,7 @@ nav li {
 #intro .jumbotron .container {
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(10%, -50%);
 }
 
 #intro .btn {
@@ -43,7 +99,7 @@ nav li {
 }
 
 .btn {
-    background-color: #f05f5c;
+    background-color: rgb(105, 105, 105);
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
@@ -55,7 +111,7 @@ nav li {
 }
 
 #second {
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 #second h3,
@@ -65,7 +121,6 @@ nav li {
 }
 
 #second img {
-    border-radius: 100%;
     width: 108px;
 }
 
@@ -86,7 +141,7 @@ p.lead {
 }
 
 #latest {
-    background: rgb(248, 248, 248);
+    /*background: rgb(248, 248, 248);*/
     padding: 80px 0px;
 }
 
@@ -140,11 +195,12 @@ p.lead {
 }
 
 #email {
-    padding: 80px 0px
+    padding: 15px 0px;
+    margin: 50px 0px;
 }
 
 footer {
-    padding: 80px 0px
+    padding: 80px 0px;
 }
 
 #email p {
@@ -158,6 +214,7 @@ footer {
 
 footer {
     border-top: 1px solid rgba(0, 0, 0, 0.09);
+    background-color: #ACD6FF;
 }
 
 footer img {
